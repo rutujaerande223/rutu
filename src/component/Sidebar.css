@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    color: var(--color);
+    margin: 0;
+}
+
+.list-item {
+    padding: 8px 20px;
+    color: var(--color);
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text-decoration {
+    text-decoration: none;
+    color: #000; 
+    font-size: 26px;
+  }
+  
+  .active-link {
+    font-weight: bold; /* Example styling */
+    color: #007bff; /* Highlight color for the active link */
+  }
+  

@@ -1,0 +1,112 @@
+.sidepage {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 32%;
+    background-color: #dee2e6;
+    overflow: auto;
+}
+
+input {
+    height: 40px;
+    width: 390px;
+    border-radius: 10px;
+    outline: none;
+    /* border: 1px solid black; */
+    padding: 10px;
+    border: none;
+}
+
+.add-btn {
+    margin-left: 17px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.search {
+    width: 200px;
+    height: 40px;
+    /* margin-right: 10px; */
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    padding: 0;
+    justify-content: center;
+    height: 40px;
+}
+
+.page-item {
+    display: flex;
+}
+
+.page-link {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.active .page-link {
+    background-color: #99a4af;
+    color: white;
+    border-color: #2a2f35;
+}
+
+.d-inline-flex {
+    display: inline-flex !important;
+    position: fixed;
+    bottom: 0px;
+}
+
+.fa-circle-xmark:before,
+.fa-times-circle:before,
+.fa-xmark-circle:before {
+    content: "\f057";
+    position: fixed;
+    right: 30px;
+    top: 31px;
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.buttons {
+    position: fixed;
+    bottom: 12px;
+}
+
+.delete {
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.edit {
+    border: none;
+    background-color: transparent;
+}
+
+.error-border {
+    border: 1px solid red !important;
+}
